@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+body{
+  margin: 0px;
+}
+
 .bgContainer {
   background-color: #0f172a;
   height: 100vh;
@@ -11,38 +15,30 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .heading {
   color: #f8fafc;
   font-size: 24px;
   font-family: "Roboto";
   font-weight: 600;
-  text-align: center;
 }
 
 @media (max-width: 767px) {
   .imgCard {
-    width: 30%;
-    height: 120px;
+    width: 150;
+    height: 150px;
   }
-  .imgContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
+  
 }
 
 @media (min-width: 768px) {
-  .imgContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
+  
   .imgCard {
-    width: 40%;
-    height: 140px;
+    width: 300px;
+    height: 300px;
   }
   .heading {
-    font-size: 40px;
+    font-size: 60px;
   }
 }
