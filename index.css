@@ -1,0 +1,48 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+
+.bgContainer {
+  background-color: #0f172a;
+  height: 100vh;
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading {
+  color: #f8fafc;
+  font-size: 24px;
+  font-family: "Roboto";
+  font-weight: 600;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .imgCard {
+    width: 30%;
+    height: 120px;
+  }
+  .imgContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .imgContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .imgCard {
+    width: 40%;
+    height: 140px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+}
